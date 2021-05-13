@@ -1,7 +1,7 @@
-package br.com.course.ms.worker.msworker.controller;
+package br.com.course.ms.worker.controller;
 
-import br.com.course.ms.worker.msworker.domain.Worker;
-import br.com.course.ms.worker.msworker.repository.WorkerRepository;
+import br.com.course.ms.worker.domain.Worker;
+import br.com.course.ms.worker.repository.WorkerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

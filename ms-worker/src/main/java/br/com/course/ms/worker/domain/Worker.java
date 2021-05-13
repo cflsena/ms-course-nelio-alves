@@ -1,4 +1,4 @@
-package br.com.course.ms.worker.msworker.domain;
+package br.com.course.ms.worker.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

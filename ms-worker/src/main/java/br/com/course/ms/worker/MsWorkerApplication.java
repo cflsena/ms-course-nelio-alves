@@ -1,4 +1,4 @@
-package br.com.course.ms.worker.msworker;
+package br.com.course.ms.worker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

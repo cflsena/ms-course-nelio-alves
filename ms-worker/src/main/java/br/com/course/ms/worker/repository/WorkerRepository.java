@@ -1,6 +1,6 @@
-package br.com.course.ms.worker.msworker.repository;
+package br.com.course.ms.worker.repository;
 
-import br.com.course.ms.worker.msworker.domain.Worker;
+import br.com.course.ms.worker.domain.Worker;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
