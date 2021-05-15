@@ -1,8 +1,8 @@
 package br.com.course.ms.payroll.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
@@ -10,14 +10,9 @@ import java.math.BigDecimal;
 @Data
 @AllArgsConstructor(staticName = "create")
 @NoArgsConstructor(staticName = "create")
-@Builder
-public class Payment {
-
+@EqualsAndHashCode(of = "id")
+public class Worker {
+    private Long id;
     private String name;
     private BigDecimal dailyIncome;
-    private int days;
-
-    public BigDecimal getTotal(){
-        return this.dailyIncome.multiply(new BigDecimal(days));
-    }
 }
