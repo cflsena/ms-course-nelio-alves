@@ -1,4 +1,4 @@
-package br.com.course.msuser;
+package br.com.course.ms.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

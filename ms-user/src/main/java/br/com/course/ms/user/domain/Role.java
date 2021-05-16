@@ -1,4 +1,4 @@
-package br.com.course.msuser.domain;
+package br.com.course.ms.user.domain;
 
 import lombok.*;
 

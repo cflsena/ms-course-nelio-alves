@@ -1,4 +1,4 @@
-package br.com.course.msuser.domain;
+package br.com.course.ms.user.domain;
 
 import lombok.*;
 
@@ -19,7 +19,10 @@ public class User {
     private Long id;
 
     private String name;
+
+    @Column(unique = true)
     private String email;
+
     private String password;
 
     @ManyToMany(fetch = FetchType.EAGER)

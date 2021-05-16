@@ -1,4 +1,4 @@
-package br.com.course.msuser.config;
+package br.com.course.ms.user.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

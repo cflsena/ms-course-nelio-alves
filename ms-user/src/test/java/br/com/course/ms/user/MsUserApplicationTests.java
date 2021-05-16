@@ -1,4 +1,4 @@
-package br.com.course.msuser;
+package br.com.course.ms.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
